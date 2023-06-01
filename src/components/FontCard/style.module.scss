@@ -1,7 +1,7 @@
 .card {
   @apply w-[90px] h-[120px] md:w-[100px] md:h-[170px] rounded-xl p-2 md:p-[6px] flex flex-col gap-1 md:justify-between border-solid border-[2px];
   .card_name {
-    @apply text-red-950 font-bold text-center text-xs md:text-sm p-1 rounded-md;
+    @apply text-red-950 font-bold text-center text-[10px] md:text-sm p-1 rounded-md;
   }
   .card_img {
     @apply rounded-md flex justify-center items-center;
