@@ -1,0 +1,12 @@
+.modal {
+  @apply fixed top-0 w-full left-0 h-[100vh] bg-amber-300 flex flex-col justify-center items-center;
+  .modal_box {
+    @apply h-[300px]  w-[300px] rounded-xl bg-yellow-100 p-10 flex flex-col justify-center items-center gap-4;
+  }
+  .modal_text {
+    @apply text-stone-700 text-4xl uppercase text-center font-bold;
+  }
+  .modal_btn {
+    @apply w-28 text-stone-50 uppercase font-bold p-2 rounded-xl cursor-pointer;
+  }
+}

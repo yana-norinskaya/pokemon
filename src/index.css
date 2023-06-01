@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-amber-300 flex justify-center items-center h-[100vh];
+}
+.img_bg {
+  @apply w-[150px] h-[150px] absolute top-[10rem] left-[10rem];
+}
+button {
+  cursor: pointer;
+}

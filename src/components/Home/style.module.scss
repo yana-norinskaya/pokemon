@@ -1,0 +1,9 @@
+.home {
+  @apply rounded-xl p-5 bg-amber-100 flex justify-center flex-col items-center gap-2;
+  .home_title {
+    @apply uppercase font-bold text-xl text-sky-700;
+  }
+  .home_btn {
+    @apply bg-red-600 rounded-xl w-[100px] p-3 text-yellow-300 font-bold uppercase;
+  }
+}
